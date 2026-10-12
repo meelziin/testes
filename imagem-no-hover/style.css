@@ -77,7 +77,7 @@ div#imagem4 {
 aside {
     display: flex;
     width: 100%;
-    height: 400px;
+    height: 100%;
 
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -85,6 +85,10 @@ aside {
 
 div.conteiner {
     align-content: center;
+}
+
+div.conteiner:nth-child(2) .flex-txt { /* Inverte o lado */
+    flex-direction: row-reverse;
 }
 
 div.flex-txt {
@@ -95,14 +99,21 @@ div.flex-txt {
 div.titulo-h2 {
     align-content: center;
     padding: 20px;
+    margin: 10px;
     font-size: 1.8rem;
+}
 
+div#aizen {
     border-right: 2px solid var(--destaque);
+}
+
+div#sama {
+    border-left: 2px solid var(--destaque);
 }
 
 div.txt {
     font-size: 1.3rem;
     padding: 20px;
-    width: 50%;
+    width: 40%;
 }
 

@@ -19,11 +19,13 @@ div.conteiner-flex {
     flex-wrap: wrap;
 }
 
-
-div.imagem {
+div.conteiner-img {
     width: 100%;
     height: 100%;
-    transition: 1s;
+    transition: 1s; 
+}
+
+div#imagem1 {
     background: url(imagens/1347934.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,10 +33,7 @@ div.imagem {
     background-attachment: fixed;
 }
 
-div.imagem2 {
-    width: 100%;
-    height: 100%;
-    transition: 1s;
+div#imagem2 {
     background: url(imagens/full.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,10 +55,7 @@ i, svg {
     font-size: 50px;
 }
 
-div.imagem3 {
-    width: 100%;
-    height: 100%;
-    transition: 1s;
+div#imagem3 {
     background: url(imagens/1347934.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,19 +63,37 @@ div.imagem3 {
     background-attachment: fixed;
 }
 
-div.imagem4 {
-    width: 100%;
-    height: 100%;
-    transition: 1s;
-    background: url(imagens/1347934.png);
+div#imagem4 {
+    background: url(imagens/full.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
     background-attachment: fixed;
 }
 
-div.imagem:hover {
-    width: 100%;
-    height: 100%;
+aside {
+    display: flex;
+    width: 50%;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+div#caixa {
+    align-content: center;
+}
+
+div.flex-txt {
+    display: flex;
     
 }
+
+div.titulo-h2 {
+    align-content: center;
+    padding: 20px;
+}
+
+div.txt {
+
+}
+

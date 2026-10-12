@@ -1,4 +1,7 @@
 @charset "UTF-8";
+:root {
+    --destaque:  #981312;
+}
 
 * {
     padding: 0px;
@@ -73,13 +76,14 @@ div#imagem4 {
 
 aside {
     display: flex;
-    width: 50%;
+    width: 100%;
+    height: 400px;
 
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
-div#caixa {
+div.conteiner {
     align-content: center;
 }
 
@@ -92,10 +96,13 @@ div.titulo-h2 {
     align-content: center;
     padding: 20px;
     font-size: 1.8rem;
+
+    border-right: 2px solid var(--destaque);
 }
 
 div.txt {
     font-size: 1.3rem;
     padding: 20px;
+    width: 50%;
 }
 

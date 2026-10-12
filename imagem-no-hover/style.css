@@ -91,9 +91,11 @@ div.flex-txt {
 div.titulo-h2 {
     align-content: center;
     padding: 20px;
+    font-size: 1.8rem;
 }
 
 div.txt {
-
+    font-size: 1.3rem;
+    padding: 20px;
 }
 
